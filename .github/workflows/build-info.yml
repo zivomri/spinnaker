@@ -39,7 +39,7 @@ jobs:
 
     - name: Configure Gradle with JFrog
       run: |
-        jf gradle-config  --repo-resolve=poc-maven-release --repo-deploy=poc-maven-release --use-wrapper
+        jf gradle-config  --repo-resolve=poc-gradle-release --repo-deploy=poc-gradle-release --use-wrapper
         
     - name: Install dependencies and build
       run: |
